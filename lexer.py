@@ -2,7 +2,7 @@ from pygments import lex
 from pygments.lexers import PythonLexer
 
 code = """
-print("hello world")
+Type here
 """
 
 tokens = list(lex(code, PythonLexer()))
